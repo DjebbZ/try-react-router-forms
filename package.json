@@ -1,0 +1,30 @@
+{
+  "name": "y",
+  "version": "0.0.0",
+  "description": "Trying react-router and react-forms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DjebbZ/try-react-router-forms.git"
+  },
+  "keywords": [
+    "react",
+    "playground",
+    "router",
+    "forms"
+  ],
+  "author": "Khalid Jebbari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DjebbZ/try-react-router-forms/issues"
+  },
+  "homepage": "https://github.com/DjebbZ/try-react-router-forms",
+  "dependencies": {
+    "react": "~0.12.2",
+    "react-router": "~0.12.0",
+    "react-forms": "git://github.com/prometheusresearch/react-forms.git"
+  }
+}
