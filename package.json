@@ -4,7 +4,7 @@
   "description": "Trying react-router and react-forms",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify -t reactify index.js -o dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
     "react": "~0.12.2",
     "react-router": "~0.12.0",
     "react-forms": "git://github.com/prometheusresearch/react-forms.git"
+  },
+  "devDependencies": {
+    "reactify": "~1.0.0",
+    "browserify": "~9.0.3"
   }
 }
